@@ -1,5 +1,17 @@
 import streamlit as st
 
+st.markdown("""
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-72GDV7JH3D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-72GDV7JH3D');
+</script>
+""", unsafe_allow_html=True)
+
 # Cabeçalho do aplicativo
 st.header("Análise do Usuário")
 
